@@ -80,17 +80,24 @@ a{
   max-width: 800px;
 }
 
-.card {
+.card, .loading{
   width: 100%;
   margin: 1rem;
   color: inherit;
   flex-basis: 45%;
   padding: 1.5rem;
   cursor: pointer;
-  text-align: left;
   border-radius: 10px;
   text-decoration: none;
   border: 1px solid #eaeaea;
+}
+
+.loading{
+  text-align: center;
+}
+
+.card{
+  text-align: left;
 }
 
 .card:hover,

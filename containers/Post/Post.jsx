@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Post = () => {
+const Post = ({film}) => {
+   const { title, director } = film
+
    return (
       <div className="card">
-         <h3>Post Title</h3>
-         <p>Post Description</p>
+         <h3>{title}</h3>
+         <p>{director}</p>
       </div>
    )
 }

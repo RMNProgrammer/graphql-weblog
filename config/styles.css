@@ -12,8 +12,17 @@ html, body {
 
 .center {
   display: flex;
+  padding: 3rem;
   align-items: center;
   justify-content: center;
+}
+
+.blue {
+  color: #0070f3;
+}
+
+.red {
+  color: #e74c3c;
 }
 
 .container {
@@ -75,29 +84,22 @@ a{
   font-size: 1.5rem;
 }
 
-.posts {
+.movies {
   width: 100%;
   max-width: 800px;
 }
 
-.card, .loading{
+.card{
   width: 100%;
   margin: 1rem;
   color: inherit;
   flex-basis: 45%;
   padding: 1.5rem;
   cursor: pointer;
+  text-align: left;
   border-radius: 10px;
   text-decoration: none;
   border: 1px solid #eaeaea;
-}
-
-.loading{
-  text-align: center;
-}
-
-.card{
-  text-align: left;
 }
 
 .card:hover,

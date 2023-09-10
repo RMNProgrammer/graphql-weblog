@@ -1,8 +1,7 @@
 import React from 'react'
 
-const Post = ({film}) => {
-   const { title, director } = film
-
+const Movie = ({movie}) => {
+   const { title, director } = movie
    return (
       <div className="card">
          <h3>{title}</h3>
@@ -11,4 +10,4 @@ const Post = ({film}) => {
    )
 }
 
-export default Post
+export default Movie

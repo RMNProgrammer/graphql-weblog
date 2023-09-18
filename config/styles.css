@@ -12,7 +12,7 @@ html, body {
 
 .center {
   display: flex;
-  padding: 3rem;
+  padding: 1rem;
   align-items: center;
   justify-content: center;
 }
@@ -35,6 +35,10 @@ html, body {
   justify-content: center;
 }
 
+.space{
+  margin:1rem;
+}
+
 footer {
   width: 100%;
   height: 100px;
@@ -48,13 +52,10 @@ footer {
 
 footer a {
   display: flex;
+  color: black;
   align-items: center;
-  justify-content: center;
-}
-
-a{
-  color: inherit;
   text-decoration: none;
+  justify-content: center;
 }
 
 .title a {
@@ -69,7 +70,7 @@ a{
 }
 
 .title {
-  margin: 0;
+  margin: 2rem;
   font-size: 4rem;
   line-height: 1.15;
 }

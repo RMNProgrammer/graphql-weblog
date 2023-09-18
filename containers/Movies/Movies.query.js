@@ -6,13 +6,6 @@ const MOVIES_QUERY = gql`
          films {
             title
             director
-            producers
-            openingCrawl
-            characterConnection {
-               characters {
-                  name
-               }
-            }
          }
       }
    }
